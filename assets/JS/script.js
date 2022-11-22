@@ -10,7 +10,7 @@ const cambio = async () => {
         const data = await response.json()
         const valorCambio = +data.serie[0].valor
 
-        totalTxt.textContent = pesoValue.value / valorCambio
+        totalTxt.textContent = `Resultado: $ ${pesoValue.value / valorCambio}`
     } catch (e) {
         totalTxt.textContent = e.message
     }
