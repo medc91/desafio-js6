@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    height: 1000px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    background-color: #393e51;
+    color: #fff;
+}
+
+.conversor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #566683;
+    border: 2px solid #fbf9fa;
+    height: 300px;
+    width: 500px;
+}
